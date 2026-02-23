@@ -48,7 +48,7 @@ App will be available at `http://localhost:3000`.
 ## Supabase Auth notes
 
 - This MVP uses **email + password** auth.
-- Routes are protected by `middleware.ts` (unauthenticated users are redirected to `/login`).
+- Routes are protected by `proxy.ts` (unauthenticated users are redirected to `/login`).
 - The `/auth/callback` route is included for email confirmations (when enabled in Supabase).
 
 ## Database + Storage
